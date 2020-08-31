@@ -76,7 +76,7 @@ const slides=document.querySelector("#slideshow").children;
 
    function resetTimer(){
    	  clearInterval(timer);
-   	  timer=setInterval(autoPlay,7000);
+   	  timer=setInterval(autoPlay,6000);
    }
  
   
@@ -85,4 +85,4 @@ const slides=document.querySelector("#slideshow").children;
       updateCircleIndicator();
   }
 
-  let timer=setInterval(autoPlay,4000);
+  let timer=setInterval(autoPlay,3000);
